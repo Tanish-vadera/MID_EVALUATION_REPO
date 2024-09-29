@@ -1,0 +1,200 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4; /* Light gray background */
+    color: #333; /* Dark gray text for contrast */
+  }
+  
+  h1, h2, h3 {
+    margin: 0;
+  }
+  
+  /* Header Styles */
+  .header {
+    background: #ffffff; /* White background for header */
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 1px solid #ddd; /* Light gray bottom border */
+  }
+  
+  .header h1 {
+    font-size: 2.5rem;
+    color: #2c3e50; /* Darker color for the title */
+  }
+  
+  .header p {
+    font-size: 1.1rem;
+    margin: 10px 0;
+    color: #7f8c8d; /* Slightly lighter gray for the subtitle */
+  }
+  
+  /* Call to Action Styles */
+  .cta-button {
+    background-color: #2980b9;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 25px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background: #1a5276; /* Darker blue on hover */
+  }
+  
+  /* Features Section */
+  .features {
+    background: #ffffff; /* White background for features section */
+    padding: 80px 20px;
+    text-align: center;
+  }
+
+  .feature-icon{
+    border-radius: 20%;
+  }
+  
+  .features h2 {
+    margin-bottom: 40px;
+    color: #2c3e50; /* Darker color for section header */
+  }
+  
+  .features-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .feature-card {
+    width: 250px;
+    padding: 30px;
+    background: #ecf0f1; /* Light gray for feature cards */
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .feature-card h3 {
+    font-size: 1.5rem;
+    color: #34495e; /* Dark gray for feature titles */
+    margin-bottom: 10px;
+  }
+  
+  .feature-card p {
+    font-size: 1rem;
+    color: #7f8c8d; /* Lighter gray for feature descriptions */
+  }
+  
+  /* How It Works Section */
+  .how-it-works {
+    background: #ecf0f1; /* Light gray background for this section */
+    padding: 80px 20px;
+    text-align: center;
+  }
+  
+  .steps-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .step-card {
+    width: 200px;
+    padding: 30px;
+    background: #ffffff; /* White background for step cards */
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .step-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .step-card h3 {
+    font-size: 1.5rem;
+    color: #2980b9; /* Blue for step titles */
+    margin-bottom: 10px;
+  }
+  
+  .step-card p {
+    font-size: 1rem;
+    color: #34495e; /* Dark gray for step descriptions */
+  }
+  
+  /* Testimonials Section */
+  .testimonials {
+    background: #ffffff; /* White background for testimonials section */
+    padding: 80px 20px;
+    text-align: center;
+  }
+  
+  .testimonial {
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: #f9f9f9; /* Slightly off-white for testimonial boxes */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .testimonial-quote {
+    font-size: 1.5rem;
+    color: #555; /* Darker gray for quote text */
+    font-style: italic;
+    margin-bottom: 20px;
+    line-height: 1.5;
+  }
+  
+  cite {
+    font-size: 1rem;
+    color: #2980b9; /* Blue for citation */
+    font-weight: bold;
+  }
+  
+  /* Footer Section */
+  .footer {
+    background: #34495e; /* Dark gray background for footer */
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .footer-links {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links li {
+    display: inline-block;
+    margin: 0 15px;
+  }
+  
+  .footer-links a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-links a:hover {
+    color: #f1c40f; /* Gold color on hover */
+    text-decoration: underline; /* Underline effect on hover */
+  }
+  
+  .footer p {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #bdc3c7; /* Light gray for footer text */
+  }
+  

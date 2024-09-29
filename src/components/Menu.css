@@ -1,0 +1,50 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f8f9fa; /* Light background */
+  padding: 10px 20px; /* Padding for the navbar */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center; /* Center items vertically */
+  width: 100%; /* Full width */
+  justify-content: center; /* Center the items */
+}
+
+.navbar-logo {
+  display: flex;
+  position: absolute;
+  align-items: center; /* Center logo vertically */
+  text-decoration: none; /* Remove underline from links */
+  color: #333; /* Text color */
+  right: 45%; /* Spacing between logo and title */
+  top:10px;
+}
+
+.logo {
+  height: 70px; /* Set logo height */
+}
+
+.navbar-title {
+  font-size: 24px; /* Title font size */
+  color: #333; /* Title color */
+  margin-right: auto; /* Push links to the right */
+}
+
+.navbar-links {
+  margin-left: auto; /* Push links to the right */
+}
+
+.navbar-link {
+  text-decoration: none; /* Remove underline */
+  color: #007bff; /* Link color */
+  margin-left: 20px; /* Spacing between links */
+  font-size: 18px; /* Link font size */
+}
+
+.navbar-link:hover {
+  text-decoration: underline; /* Underline on hover */
+}
